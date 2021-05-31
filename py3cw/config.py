@@ -13,6 +13,7 @@ API_METHODS = {
         'market_list': ('GET', 'market_list'),
         'market_pairs': ('GET', 'market_pairs'),
         'currency_rates': ('GET', 'currency_rates'),
+        'convert_dust_to_bnb': ('POST', '{id}/convert_dust_to_bnb'),
         'sell_all_to_usd': ('POST', '{id}/sell_all_to_usd'),
         'sell_all_to_btc': ('POST', '{id}/sell_all_to_btc'),
         'rename': ('POST', '{id}/rename'),
